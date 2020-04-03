@@ -267,3 +267,34 @@ food('CHICKEN BROTH SOUP(1 cup, 8 fl oz)',4,0.28,0.3,0,6,0.02,'SOUP','N').
 food('GRILLED PORK BACON(1 package,(6 oz) yields)',185,24.24,1.35,0,10,0.82,'SOUP','N').
 food('PORK HAM PATTIES(1 patty)',315,12.78,1.69,0,8,1.05,'SOUP','N').
 food('PAN FRIED CANADIAN BACON(1 slice)',146,27.97,1.92,0,7,0.57,'SOUP','N').
+
+
+user_details:-
+
+    write('Enter your name'),
+
+	read(Name),
+
+    write('Enter your Age'),
+
+    read(Age),
+
+    write('Enter your Gender'),
+
+    read(Gender),
+
+     write('Enter if Vegetarian or NonVegetarian(V-Veg,N-Non Veg)'),
+
+      read(Preference),
+
+    write('Your details are-'),nl,
+
+    write(Name),nl,
+
+    write(Age),nl,
+
+    write(Gender),nl,
+
+    write(Preference),nl,
+
+	nutritional_values(Age,Gender,Preference).
